@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content%}
+<h1> This is Product Page </h1><br>
+<a href= "{% url 'product1' %}">Product 1</a><br>
+<a href= "{% url 'product2' %}">Product 2</a><br>
+<a href= "{% url 'product3' %}">Product 3</a><br>
+<a href= "{% url 'home' %}">Back To Home</a><br>
+{% endblock content %}
+
+

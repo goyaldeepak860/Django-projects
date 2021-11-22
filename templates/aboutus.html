@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %} 
+<h1 style="font-size:50px;font-color:red;">about us page </h1><br><br>
+<a href= "{% url 'history' %}">History</a><br>
+<a href= "{% url 'vision' %}">vision</a><br>
+<a href= "{% url 'leadership' %}">Leadership</a><br>
+<a href= "{% url 'home' %}">Back To Home</a>
+{% endblock content %}
